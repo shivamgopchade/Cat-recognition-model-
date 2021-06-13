@@ -91,4 +91,4 @@ def model(X_train, Y_train, X_test, Y_test, num_iter, lr, prt=False):
 #w, b, X, Y = np.array([[1.],[2.]]), 2., np.array([[1.,2.,-1.],[3.,4.,-3.2]]), np.array([[1,0,1]])
 
 
-d = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iter = 2000, lr = 0.005, prt = False)
+d = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iter = 2000, lr = 0.005, prt = False) #model example
